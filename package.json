@@ -1,0 +1,33 @@
+{
+  "name": "ag-cesium",
+  "version": "1.1.0",
+  "description": "ag-cesium is an opinionated view of how to interact with cesium API in a GIS application",
+  "license": "MIT",
+  "author": "mykels",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "build": "npm run compile && yarn pack",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mykels/ag-cesium.git"
+  },
+  "keywords": [
+    "cesium",
+    "javascript",
+    "typescript",
+    "gis"
+  ],
+  "dependencies": {
+    "rxjs": "6.3.3"
+  },
+  "devDependencies": {
+    "typescript": "3.1.1"
+  },
+  "typings": "dist/index.d.ts",
+  "typescript": {
+    "definition": "dist/index.d.ts"
+  }
+}
